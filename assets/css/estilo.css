@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+nav #navbarNavAltMarkup{    /****** muevo el navbar a la izquierda****/
+    justify-content: end;
+}
+.navbar{
+    background-image: linear-gradient(to right, white, rgb(196, 178, 178));
+}
+
+header .carousel-inner h1 {
+    font-family: Parisienne;
+    font-size: 90px;  
+    margin: 20px; 
+    font-weight: 500; 
+    color: black;
+}
+
+header .carousel-inner p{
+    font-family: Parisienne;
+    font-size: 50px;  
+    margin: 20px; 
+    font-weight: 500;
+}
+body{   
+   background-image: linear-gradient(to right,rgb(238, 196, 182), rgb(235, 133, 99));
+}
+
+.card .card-img-top{
+    height: 250px;
+}
+
+iframe{
+    width: 90%;
+    height: 50vh;
+    margin: 20px;
+}
+
+main .card .card-body{
+    background-color:rgb(238, 196, 182) ;
+    justify-content: center;
+}
+
+main p{
+   color: rgb(31, 96, 112); 
+}
