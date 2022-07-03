@@ -1,36 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 *{
     box-sizing: border-box;
+    
 }
 
 nav #navbarNavAltMarkup{    /****** muevo el navbar a la izquierda****/
     justify-content: end;
+    font-family:Parisienne ;
+    font-size: 2em;
 }
 .navbar{
-    background-image: linear-gradient(to right, white, rgb(196, 178, 178));
+    background-image: linear-gradient(to right, white, rgb(187, 154, 154));   /******** gradiente al nav  *******/
+}
+
+.navbar .navbar-brand{
+    color:rgb(31, 96, 112) ;
+    font-family:Parisienne ;
+    font-size: 2em; 
 }
 
 header .carousel-inner h1 {
-    font-family: Parisienne;
+    font-family: Parisienne;        /****** fuente elegida *****/
     font-size: 90px;  
     margin: 20px; 
     font-weight: 500; 
     color: black;
 }
 
-header .carousel-inner p{
-    font-family: Parisienne;
+header .carousel-inner p{       
+    font-family: Parisienne;    /****le agrego una fuente descargada al carousel ****/
     font-size: 50px;  
     margin: 20px; 
     font-weight: 500;
 }
-body{   
-   background-image: linear-gradient(to right,rgb(238, 196, 182), rgb(235, 133, 99));
-}
+body{
+    background-color: rgb(238, 196, 182);
+}   
+   
 
-.card .card-img-top{
-    height: 250px;
-}
+/*.card .card-img-top{   /**** tengo q cambiar las imagenes a un mismo tamaño en todo
+    height: 400px;
+}*/
 
 iframe{
     width: 90%;
@@ -41,8 +51,40 @@ iframe{
 main .card .card-body{
     background-color:rgb(238, 196, 182) ;
     justify-content: center;
+    border: 0;
 }
 
 main p{
    color: rgb(31, 96, 112); 
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 21px;
+}
+
+h2, h3, h5 {
+    color: rgb(31, 96, 112);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.contacto{
+    border: 2px solid rgb(109, 27, 27);
+    border-radius: 12px;
+    padding: 1em;
+    
+}
+
+form{
+    border: 2px solid rgb(109, 27, 27);
+    border-radius: 12px;
+    padding: 2em;
+}
+
+label{
+    color:rgb(31, 96, 112) ;
+}
+
+.footer{
+    color: rgb(31, 96, 112); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
